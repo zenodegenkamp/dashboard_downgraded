@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Personal Dashboard",
+    "version": "1.0.0",
+    "description": "Just for practicing async JS",
+    "action": {
+      "default_icon": "icon.png"
+    },
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    },
+    "permissions": [
+        "script-src 'self' 'unsafe-eval' https://kit.fontawesome.com; object-src 'self'; font-src 'self' https://fonts.gstatic.com https://kit.fontawesome.com; connect-src 'self' https://apis.scrimba.com https://type.fit https://api.coingecko.com https://images.unsplash.com",
+        "geolocation"
+      ],
+      "content_security_policy": "script-src 'self' 'unsafe-eval' https://kit.fontawesome.com/d64ed9c63e.js; object-src 'self'"
+
+  }
